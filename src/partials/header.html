@@ -1,13 +1,36 @@
 <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+  <div class="container">
+    <div class="header-wrap">
+      <a href="./index.html" class="header-link-logo">
+        Lloyd<span class="logo-color">Jefferson.</span></a
+      >
+      <button
+        id="mobileMenuBtn"
+        class="header-btn"
+        type="button"
+        aria-label="mobile btn menu"
+      >
+        <svg class="btn-svg" width="24" height="24">
+          <use
+            href="/img/sprite_icon_opt.svg#icon-burger_menu"
+            class="btn-svg-burger"
+          ></use>
+        </svg>
+      </button>
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+      <nav class="header-navigation">
+        <ul class="header-menu">
+          <li class="header-list">
+            <a href="#about-me" class="header-link">About me</a>
+          </li>
+          <li class="header-list">
+            <a href="#projects" class="header-link">Projects</a>
+          </li>
+          <li class="header-list">
+            <a href="#together" class="header-link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
 </header>
