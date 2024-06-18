@@ -9,7 +9,7 @@
     <script type="module" crossorigin src="/My-Portfolio-/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/My-Portfolio-/assets/vendor-4c67fdac.js">
     <link rel="stylesheet" href="/My-Portfolio-/assets/vendor-04ae1e13.css">
-    <link rel="stylesheet" href="/My-Portfolio-/assets/index-f48b53bc.css">
+    <link rel="stylesheet" href="/My-Portfolio-/assets/index-22ac7677.css">
   </head>
   <body>
 
@@ -441,7 +441,7 @@
   </ul>
 </section>
 
-      <section class="reviews-section">
+      <section class="reviews-section section">
   <div class="reviews-section-wrapper container">
     <h2 class="section-title">REVIEWS</h2>
     <div class="swiper">
@@ -485,97 +485,95 @@
   </div>
 </section>
 
-      
-<section id="together" class=" together container">
+      <section id="together" class="together container">
   <div class="bg-decor-together"></div>
 
   <h2 class="work-title">
     let’s <span class="title-span"> work together</span>
   </h2>
- <div class="work-together">
-   <div class="contacts-box">
-    <p class="work-text">
-      Contact me to transform your ideas into exceptional solutions.
-    </p>
-    <ul class="contacts-list">
-      <li class="contacts-list-item">
-        <svg class="contacts-work-svg" width="24" height="24">
-          <use href="/My-Portfolio-/assets/sprite_icon_opt-a290974e.svg#icon-phone_icon"></use>
-        </svg>
-        <a class="contacts-work-link" href="tel:+380904567890">
-          +38 090 456 78 90
-        </a>
-      </li>
-      <li class="contacts-list-item">
-        <svg class="contacts-work-svg" width="24" height="24">
-          <use href="/My-Portfolio-/assets/sprite_icon_opt-a290974e.svg#icon-email_icon"></use>
-        </svg>
-        <a class="contacts-work-link" href="mailto:lloydjefferson@gmail.com">
-          lloydjefferson@gmail.com
-        </a>
-      </li>
-      <li class="contacts-list-item">
-        <svg class="contacts-work-svg" width="24" height="24">
-          <use href="/My-Portfolio-/assets/sprite_icon_opt-a290974e.svg#icon-gps_icon"></use>
-        </svg>
-        <a
-          class="contacts-work-link"
-          target="_blank"
-          href="https://maps.app.goo.gl/LCiAYpx9y6Tn88iJ6"
-          >USA, New York</a
-        >
-      </li>
-    </ul>
+  <div class="work-together">
+    <div class="contacts-box">
+      <p class="work-text">
+        Contact me to transform your ideas into exceptional solutions.
+      </p>
+      <ul class="contacts-list">
+        <li class="contacts-list-item">
+          <svg class="contacts-work-svg" width="24" height="24">
+            <use href="/My-Portfolio-/assets/sprite_icon_opt-a290974e.svg#icon-phone_icon"></use>
+          </svg>
+          <a class="contacts-work-link" href="tel:+380904567890">
+            +38 090 456 78 90
+          </a>
+        </li>
+        <li class="contacts-list-item">
+          <svg class="contacts-work-svg" width="24" height="24">
+            <use href="/My-Portfolio-/assets/sprite_icon_opt-a290974e.svg#icon-email_icon"></use>
+          </svg>
+          <a class="contacts-work-link" href="mailto:lloydjefferson@gmail.com">
+            LeonidMozheliuk@gmail.com
+          </a>
+        </li>
+        <li class="contacts-list-item">
+          <svg class="contacts-work-svg" width="24" height="24">
+            <use href="/My-Portfolio-/assets/sprite_icon_opt-a290974e.svg#icon-gps_icon"></use>
+          </svg>
+          <a
+            class="contacts-work-link"
+            target="_blank"
+            href="https://maps.app.goo.gl/LCiAYpx9y6Tn88iJ6"
+            >USA, New York</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <form class="contact-form">
+      <div class="email-box">
+        <label for="email" class="form-email-lable"></label>
+        <input
+          class="form-input-email"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email*"
+          pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+          required
+        />
+      </div>
+
+      <div class="massage-box">
+        <label class="form-lable-massage" for="message"></label>
+        <textarea
+          class="comment-field"
+          id="message"
+          name="message"
+          placeholder="Message"
+          required
+        ></textarea>
+      </div>
+
+      <button class="form-button-submit" type="submit">SEND MESSAGE</button>
+    </form>
   </div>
-
-  <form class="contact-form">
-    <div class="email-box">
-      <label for="email" class="form-email-lable"></label>
-      <input
-        class="form-input-email"
-        type="email"
-        id="email"
-        name="email"
-        placeholder="Your email*"
-        pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
-        required
-      >
-    </div>
-
-    <div class="massage-box">
-      <label class="form-lable-massage" for="message"></label>
-      <textarea
-        class="comment-field"
-        id="message"
-        name="message"
-        placeholder="Message"
-        required
-      ></textarea>
-    </div>
-
-    <button class="form-button-submit" type="submit">SEND MESSAGE</button>
-  </form>
- </div>
- <div id="backdrop" class="backdrop is-hidden">
+  <div id="backdrop" class="backdrop is-hidden">
     <div id="modal" class="modal-together">
-    <div class="modal-content">
-      <svg class="close-button" width="24" height="24">
-        <use href="/My-Portfolio-/assets/sprite_icon_opt-a290974e.svg#icon-close_icon_btn"></use>
-      </svg>
-      <div class="modal-text-content">
-        <h3 class="modal-title">
-          Thank you for your interest in cooperation!
-        </h3>
-        <p class="modal-text">
-          The manager will contact you shortly to discuss further details and
-          opportunities for cooperation. Please stay in touch.
-        </p>
+      <div class="modal-content">
+        <svg class="close-button" width="24" height="24">
+          <use href="/My-Portfolio-/assets/sprite_icon_opt-a290974e.svg#icon-close_icon_btn"></use>
+        </svg>
+        <div class="modal-text-content">
+          <h3 class="modal-title">
+            Thank you for your interest in cooperation!
+          </h3>
+          <p class="modal-text">
+            The manager will contact you shortly to discuss further details and
+            opportunities for cooperation. Please stay in touch.
+          </p>
+        </div>
       </div>
     </div>
   </div>
- </div>
 </section>
-
 
     </main>
     <section class="footer container">
