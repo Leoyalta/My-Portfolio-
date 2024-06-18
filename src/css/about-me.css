@@ -157,13 +157,13 @@
   }
 
   .about-me-img {
-    margin-left: 202px;
-    margin-top: 272px;
+    /* margin-left: 202px; */
+    /* margin-top: 272px; */
   }
 
   .bio-image {
-    height: 600px;
-    min-width: 400px;
+    min-width: 336px;
+    height: 483px;
   }
 
   .bio p:last-child::before {

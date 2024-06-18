@@ -179,7 +179,7 @@
   justify-content: center;
   align-items: center;
   background-color: #2a2d32;
-} 
+}
 
 .backdrop {
   width: 100%;
@@ -253,7 +253,7 @@
 
 @media only screen and (min-width: 768px) {
   .together {
-  padding-bottom: 124px;
+    padding-bottom: 124px;
   }
 
   .work-title {
@@ -287,32 +287,31 @@
     width: 364px;
     height: 152px;
   }
-.bg-decor-together {
-  background-image: url(../img/decor-together-tablet.png);
-  background-position: center;
-  background-size: cover;
+  .bg-decor-together {
+    background-image: url(../img/decor-together-tablet.png);
+    background-position: center;
+    background-size: cover;
 
-  width: 400px;
-  height: 336px;
+    width: 400px;
+    height: 336px;
 
-  position: absolute;
+    position: absolute;
 
-  left: 52%;
-  top: -14%;
-  
-}
-@media screen and (min-device-pixel-ratio: 2),
-(min-resolution: 2dppx),
-(min-resolution: 192dpi) {
-  .bg-decor-together  {
-  background-image: url(../img/decor-together-tablet@2x.png);
-}
-}
+    left: 52%;
+    top: -14%;
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .bg-decor-together {
+      background-image: url(../img/decor-together-tablet@2x.png);
+    }
+  }
 }
 
 @media only screen and (min-width: 1280px) {
   .together {
-  padding-bottom: 164px;
+    padding-bottom: 164px;
   }
 
   .work-title {
@@ -345,10 +344,10 @@
     top: -19%;
   }
   @media screen and (min-device-pixel-ratio: 2),
-  (min-resolution: 2dppx),
-  (min-resolution: 192dpi) {
-    .bg-decor-together  {
-    background-image: url(../img/decor-together-desk@2x.png);
-  }
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .bg-decor-together {
+      background-image: url(../img/decor-together-desk@2x.png);
+    }
   }
 }
