@@ -184,7 +184,7 @@ const adaptivePicture = imagePaths.map(
           <p class="my-project-tech">${technologyStack}</p>
          <div class="my-project-div" > <h3 class="my-project-item-title">${title}</h3>
           </svg>
-      <button onclick="window.open('https://github.com/smelik81/teamproject-js-08', '_blank')" class="my-project-item-btn-visit">VISIT
+      <button onclick="window.open('https://github.com/Leoyalta/My-Portfolio-', '_blank')" class="my-project-item-btn-visit">VISIT
     <svg width="18" height="18" class="my-project-item-btn-visit-svg">
         <use href="${iconArrow}#icon-Arrow_visit_up"></use>
 </button></div>

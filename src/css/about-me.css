@@ -95,11 +95,11 @@
   }
 
   .about-me-img {
-    margin-top: 368px;
+    margin-top: 80px;
   }
 
   .bio-image {
-    height: 392px;
+    height: 472px;
     min-width: 336px;
   }
 
@@ -162,8 +162,8 @@
   }
 
   .bio-image {
-    height: 448px;
-    min-width: 384px;
+    height: 600px;
+    min-width: 400px;
   }
 
   .bio p:last-child::before {
